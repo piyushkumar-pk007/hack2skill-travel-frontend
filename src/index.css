@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: 40 67% 97%;
+  --ink: 191 40% 12%;
+  --accent: 177 44% 40%;
+  --ember: 15 83% 58%;
+  --mist: 181 23% 92%;
+  color: hsl(var(--ink));
+  background:
+    radial-gradient(circle at top right, rgba(255, 160, 122, 0.38), transparent 32%),
+    radial-gradient(circle at left center, rgba(72, 184, 174, 0.24), transparent 28%),
+    linear-gradient(180deg, #fff8f0 0%, #f7faf8 56%, #eef5f4 100%);
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: hsl(var(--ink));
+  background:
+    radial-gradient(circle at top right, rgba(255, 160, 122, 0.38), transparent 32%),
+    radial-gradient(circle at left center, rgba(72, 184, 174, 0.24), transparent 28%),
+    linear-gradient(180deg, #fff8f0 0%, #f7faf8 56%, #eef5f4 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.glass-panel {
+  background: rgba(255, 252, 247, 0.82);
+  backdrop-filter: blur(16px);
+}

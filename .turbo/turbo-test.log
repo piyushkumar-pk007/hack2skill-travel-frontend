@@ -1,0 +1,27 @@
+
+> @travel-engine/web@1.0.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mF:/Prompt war/travel-engine/apps/web[39m
+
+ [32m✓[39m tests/components/DayCard.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[33m 878[2mms[22m[39m
+   [33m[2m✓[22m[39m DayCard[2m > [22mcalls onToggle when header clicked [33m442[2mms[22m[39m
+ [32m✓[39m tests/components/LiveUpdatesFeed.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 1019[2mms[22m[39m
+   [33m[2m✓[22m[39m LiveUpdatesFeed[2m > [22mhas zero axe violations [33m798[2mms[22m[39m
+ [32m✓[39m tests/components/ConciergeChat.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 1377[2mms[22m[39m
+   [33m[2m✓[22m[39m ConciergeChat[2m > [22msends a message from the chat form [33m655[2mms[22m[39m
+   [33m[2m✓[22m[39m ConciergeChat[2m > [22mrenders an accessible chat log [33m713[2mms[22m[39m
+ [32m✓[39m tests/components/ItineraryView.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 1865[2mms[22m[39m
+   [33m[2m✓[22m[39m ItineraryView[2m > [22mrenders highlights, stats, and alerts [33m355[2mms[22m[39m
+   [33m[2m✓[22m[39m ItineraryView[2m > [22mtoggles itinerary day sections [33m726[2mms[22m[39m
+   [33m[2m✓[22m[39m ItineraryView[2m > [22mhas zero axe violations [33m781[2mms[22m[39m
+ [32m✓[39m tests/components/TripPlannerForm.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 1979[2mms[22m[39m
+   [33m[2m✓[22m[39m TripPlannerForm[2m > [22msubmits the planner and navigates on success [33m1001[2mms[22m[39m
+   [33m[2m✓[22m[39m TripPlannerForm[2m > [22mrenders an accessible planner form [33m969[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m5 passed[39m[22m[90m (5)[39m
+[2m      Tests [22m [1m[32m14 passed[39m[22m[90m (14)[39m
+[2m   Start at [22m 11:10:51
+[2m   Duration [22m 6.90s[2m (transform 2.74s, setup 2.36s, collect 6.91s, tests 7.12s, environment 7.86s, prepare 1.56s)[22m
+
